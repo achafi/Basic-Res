@@ -4,11 +4,9 @@
 
 Flask official Website can be found [**here**](https://flask.palletsprojects.com/en/1.1.x/) 
 
-This is a Flask Application in which will give custom recomendation to any user who has selected 10 movies and fetch the first youtube link for the search intended.
+This is a Flask App for a blog.
 
-Due to github upload constraints we can not upload the dataset, However you can download them from [**here**](https://drive.google.com/drive/folders/16LzLyoqyqn7VH5G_JYyA5p4HUgCZIXXe?usp=sharing)
-
-This is will cover both your ML basics and flask basics.
+This is basic hello world application for the same.
 
 ### Setup
 We hope if you are working on python framework then you must have Python installed.
@@ -17,9 +15,7 @@ To check version of python run
 
 `python --version`
 
-Now you have to install Flask
-
-If you are planing to this project you should setup a virtualenv, if you dont have a virtualenv run the following command:
+Now setup virtualenv, 
 `pip install virtualenv`
 
 Great! Now you have to setup a virtualenv, run the comand, 
@@ -31,10 +27,14 @@ After setting up the virtualenv you have to activate it with,
 After activating virtualenv you need to install all the dependencies for all the libs used in the project
 
 Run the command for dowloading all the dependency 
+For flask
+`pip install flask`
 
-`pip install -r requirements.txt`
+For Database managment we use sqlalchemy,
+`pip install flask-sqlalchemy`
 
-This is will download all the dependencies in your virtualenv.
+For handeling the login and signout we use flask login,
+`pip install flask-login`
 
 Now you need just go to powershell and run 
 
@@ -42,7 +42,7 @@ Now you need just go to powershell and run
 
 You can find Your Site now at `http://127.0.0.1:5000/`
 
-Enjoy your Flask and ML Journey. You can contact us for any doubts.
+Enjoy your Flask Journey. You can contact us for any doubts.
 
 
 ### Tech used
