@@ -2,7 +2,7 @@
 
 **Brought to you with** :heart: **by** ***Etern!ty***
 
-Django Website can be found [**here**](https://www.djangoproject.com/) 
+Django official Website can be found [**here**](https://www.djangoproject.com/) 
 
 This is a Django CRUD blog with all the major features like search, comment and login.
 

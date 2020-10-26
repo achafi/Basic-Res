@@ -1,0 +1,9 @@
+{
+    "parameters":{        
+        "key" : "your key",
+        "database" : "databaseuri",
+        "track_modifications" : "False",
+        "secret_key" : "verysecret",
+        "python" : "3.7.6"
+    }
+}
