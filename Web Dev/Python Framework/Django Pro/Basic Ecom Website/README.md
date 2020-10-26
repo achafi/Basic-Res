@@ -4,7 +4,7 @@
 
 Django Website can be found [**here**](https://www.djangoproject.com/) 
 
-This is a Django CRUD blog with all the major features like search, comment and login.
+This is a Django ECOM website.
 
 This is a very Basic Hello World Project for Django Which has excellent Scalability.
 
