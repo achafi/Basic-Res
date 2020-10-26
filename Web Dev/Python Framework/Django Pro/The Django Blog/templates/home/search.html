@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} Search Results {% endblock %}
+{% block body %} 
+{% if allPost|length < 1 %}
+<h3>No search results </h3>
+{% endif %}
+{% for post in allPost %}
+<div class="container my-3">
+    <div class="card text-center">
+        <div class="card-header">
+          {{post.title}}
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">{{post.content | truncatechars:100}}</p>
+          <a href="/blog/{{post.slug}}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+</div>
+{% endfor %}
+{% endblock %}
